@@ -1,0 +1,16 @@
+h5 {
+    background-image: linear-gradient(to right,grey, orange 50%, pink);
+    border-radius: 4px;
+}
+strong {
+    background-image: linear-gradient(to right,red, orange 50%, pink);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.btn {
+    min-height: 0px !important;
+    height: 40px !important;
+    min-width: 0px !important;
+    width: 100px !important;
+}
