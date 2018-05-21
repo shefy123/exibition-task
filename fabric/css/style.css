@@ -14,3 +14,9 @@ strong {
     min-width: 0px !important;
     width: 100px !important;
 }
+strong {
+    background-image: linear-gradient(to right,red, orange 50%, pink);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }

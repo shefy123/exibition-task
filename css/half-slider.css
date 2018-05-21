@@ -16,3 +16,43 @@
 h1 {
   color: brown !important;
 }
+strong {
+  background-image: linear-gradient(to right,red, orange 50%, pink);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+button {
+	border-radius: 50px;
+    padding: 0px;
+    background-color:#161b21;
+    width: 40px;
+    height: 40px;
+	  color: #161b21;
+    border: 1px solid white;
+    transition: background 1s,color 1s; 
+}
+
+button i {
+    color: white;
+}
+
+button:nth-of-type(1):hover {
+	background-color: rgb(66, 103, 178);
+	color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:nth-of-type(2):hover {
+	background-color: rgb(29, 161, 242);
+	color: white;
+    cursor: pointer;
+    border: none;
+  }
+button:nth-of-type(3):hover {
+    background-color: #507fa4;
+    color: white;
+      cursor: pointer;
+      border: none;
+}

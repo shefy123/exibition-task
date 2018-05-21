@@ -1,4 +1,3 @@
-
 body {
     margin: 2em;
     margin-right: 0px;
@@ -7,8 +6,8 @@ body {
 .card {
     min-width: 0px;
     width: 1400px !important;
+    height: 800px !important;
     margin: 2em;
-
 }
 img {
     height: 400px;
