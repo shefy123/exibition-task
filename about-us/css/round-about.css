@@ -1,19 +1,25 @@
 /*!
- * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Start Bootstrap - Round About (https://startbootstrap.com/template-overviews/round-about)
  * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-round-about/blob/master/LICENSE)
  */
 
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}h1 {
-  color: brown !important;
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.row p {
+  width: 1000px;
 }
 footer strong {
   background-image: linear-gradient(to right,red, orange 50%, pink);
