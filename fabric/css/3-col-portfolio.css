@@ -50,7 +50,7 @@ footer button {
   background-color:#161b21;
   width: 40px;
   height: 40px;
-    color: #161b21;
+  color: #161b21;
   border: 1px solid white;
   transition: background 1s,color 1s; 
 }
@@ -82,4 +82,14 @@ outline: none !important;
 }
 footer button:active {
 background-color: #FF9800 !important;
+}
+
+@media screen and (max-width: 1190px) {
+  .card {
+    border: 2px solid black;
+    text-align: center;
+    height: 510px  !important; 
+    width: 320px !important;
+    margin: 40px;
+  }
 }

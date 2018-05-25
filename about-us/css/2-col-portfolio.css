@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Round About (https://startbootstrap.com/template-overviews/round-about)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-round-about/blob/master/LICENSE)
+ * Start Bootstrap - 2 Col Portfolio (https://startbootstrap.com/template-overviews/2-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/master/LICENSE)
  */
 
 body {
@@ -13,16 +13,18 @@ body {
     padding-top: 56px;
   }
 }
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.card {
+  border: none;
+} 
 .row {
-  display: flex;
-  flex-direction: column;
   margin-top: 16px;
 }
-.row p {
-  width: 1000px;
-}
-footer {
-   height: 100%;
+.card-title {
+  text-align: center;
 }
 footer strong {
   background-image: linear-gradient(to right,red, orange 50%, pink);
@@ -36,7 +38,7 @@ footer button {
     background-color:#161b21;
     width: 40px;
     height: 40px;
-      color: #161b21;
+    color: #161b21;
     border: 1px solid white;
     transition: background 1s,color 1s; 
 }
@@ -69,3 +71,28 @@ outline: none !important;
 footer button:active {
 background-color: #FF9800 !important;
 }
+img {
+  min-height: 0px !important;
+  height: 300px !important;
+  min-width: 0px !important;
+  width: 300px !important;
+ position: relative;
+ left: 120px;
+}
+
+img:hover {
+  opacity: 0.3;
+}
+
+@media screen and (max-width:401px) {
+  img {
+    position: none;
+    left:0px;
+  }
+}
+/* @media screen and (max-width:980px) {
+  img {
+    position: relative;
+    left:120px;
+  }
+} */
