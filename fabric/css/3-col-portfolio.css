@@ -84,12 +84,27 @@ footer button:active {
 background-color: #FF9800 !important;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 400px) {
   .card {
     border: 2px solid black;
     text-align: center;
     height: 510px  !important; 
     width: 320px !important;
-    margin: 40px;
+    margin-left: 10px;
   }
-}
+/* }
+@media screen and (min-width: 726px) {
+  .card {
+    border: 2px solid black;
+    text-align: center;
+    height: 510px  !important; 
+    width: 320px !important;
+    margin-left: 0px;
+ 
+  
+  }
+  .container {
+    margin: 16px;
+    margin-right: 0px;
+  }
+} */

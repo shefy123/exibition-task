@@ -89,3 +89,12 @@ outline: none !important;
 footer button:active {
 background-color: #FF9800 !important;
 }
+@media screen and (max-width:480px ) {
+  h1 {
+    margin-left:80px;
+  }
+  
+  #container button {
+    margin-left:80px;
+  }
+}
