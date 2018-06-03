@@ -31,21 +31,23 @@ h3 {
           border-radius:6px;
           border:1px solid #d83526;
           display:inline-block;
-          cursor:pointer;
           color:#ffffff;
           font-family:Arial;
-          font-size:15px;
+          font-size:20px;
           font-weight:bold;
           padding:6px 24px;
           text-decoration:none;
           text-shadow:0px 1px 0px #b23e35;
           margin-left: 256px;
+          height: 80px;
+          width: 200px;
+    }
+    #container button:hover {
+      cursor: pointer;
+      outline: none;
     }
     footer strong {
-      background-image: linear-gradient(to right,red, orange 50%, pink);
-      color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text;
+      color: white;
     }
     footer button {
         border-radius: 50px;
@@ -75,7 +77,7 @@ h3 {
         border: none;
     }
     footer button:nth-of-type(3):hover {
-        background-color: #507fa4;
+      background: linear-gradient(to right, yellow, orange,#f442a7,#002aff);
         color: white;
           cursor: pointer;
           border: none;

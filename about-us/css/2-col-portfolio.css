@@ -27,10 +27,7 @@ body {
   text-align: center;
 }
 footer strong {
-  background-image: linear-gradient(to right,red, orange 50%, pink);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+ color: white;
 }
 footer button {
     border-radius: 50px;
@@ -60,7 +57,7 @@ footer button:nth-of-type(2):hover {
     border: none;
 }
 footer button:nth-of-type(3):hover {
-    background-color: #507fa4;
+    background: linear-gradient(to right, yellow, orange,#f442a7,#002aff);
     color: white;
       cursor: pointer;
       border: none;

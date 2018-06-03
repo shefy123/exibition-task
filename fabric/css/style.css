@@ -6,19 +6,14 @@
     margin: 16px;
   }
   img {
-      padding: 16px;
+      padding: 8px;
   }
   h5 {
-    background-image: linear-gradient(to right,grey, pink);
-    border-radius: 4px;
     margin-bottom: 16px;
   }
  
   footer strong {
-    background-image: linear-gradient(to right,red, orange 50%, pink);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+    color:white; 
   }
   .btn {
     min-height: 0px !important;
@@ -61,7 +56,7 @@
     border: none;
   }
   footer button:nth-of-type(3):hover {
-    background-color: #507fa4;
+    background: linear-gradient(to right, yellow, orange,#f442a7,#002aff);
     color: white;
       cursor: pointer;
       border: none;
